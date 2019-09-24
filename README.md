@@ -1,2 +1,2 @@
 # YoloCTF_BuildVM
-Build a ready to run YoloCTF VM using vagrant
+Build a ready to run YoloCTF VM thanks to vagrant
