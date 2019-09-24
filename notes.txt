@@ -1,0 +1,23 @@
+disk = './secondDisk10.vdi'
+disk2 = './secondDisk102.vdi'
+
+
+
+unless File.exist?(disk)
+            v.customize [
+                'createhd', 
+                '--filename', disk, 
+                '--size', 20240
+            ]
+        end
+        unless File.exist?(disk2)
+            v.customize [
+                'createhd', 
+                '--filename', disk2, 
+                '--size', 20240
+            ]
+        end        
+
+
+
+            config.vm.provision :shell, path: "script_install.sh"

@@ -5,6 +5,12 @@
 
 Build a ready to run YoloCTF VM thanks to vagrant
 
+En pratique, vagrant déconne complètement pour la creation d'un second disque...
+Autant faire à lamain...
+Pffff...
+
+A ne pas utiliser pour l'instant...
+
 
 ## Prerequisites
 
@@ -28,5 +34,6 @@ git clone  https://github.com/monpremierctf/YoloCTF_BuildVM.git
 cd YoloCTF_BuildVM
 vagrant up
 vagrant ssh -c 'ls / '
+
 ````
 
